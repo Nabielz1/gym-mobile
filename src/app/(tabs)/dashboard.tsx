@@ -30,7 +30,7 @@ export default function DashboardScreen() {
         </View>
 
         <GymCard>
-          <Text style={styles.sectionEyebrow}>RINGKASAN TRANSAKSI HARI INI</Text>
+          <Text style={styles.sectionEyebrow}>RINGKASAN TRANSAKSI HARI INI-</Text>
           <View style={styles.summaryGrid}>
             <Summary label="Keanggotaan Baru" value={formatRupiah(1500000)} count="2 transaksi" />
             <Summary label="Perpanjangan" value={formatRupiah(400000)} count="1 transaksi" />
